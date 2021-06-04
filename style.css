@@ -1,0 +1,110 @@
+/* add styling to the button so that it always stays in the top right corner, even when you scroll */
+button {
+    position: fixed;
+    top:0;
+    right:0;
+    border-radius: 8px;
+}
+
+/* create a class called hidden */
+.hidden {
+    visibility: hidden;
+    position: fixed;
+}
+/* any HTML element that has this class should not be displayed (there's a CSS property for this!) */
+
+
+/* create a class achieved, which should change the styling of an HTML element so it is made clear that this event has been achieved */
+
+.achieved {
+    color: deepskyblue;
+}
+/* Add the other styling relevant for your aesthetic paradigm */
+
+h1 {
+    color: deepskyblue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 11%;
+}
+
+#div1 > div:nth-child(n) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 10px;
+    border-style: ridge;
+    border-collapse: separate;
+    border-spacing: 50px;
+}
+
+
+#div2 > div:nth-child(n) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 10px;
+    border-style: ridge;
+}
+
+#div3 > div:nth-child(n) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 10px;
+    border-style: ridge;
+}
+
+img {
+    border-radius: 8px;
+    width: 500px;
+    length: 600px;
+    height: 500px;
+    float: left;
+    display: block;
+}
+
+.bookshelf {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    length: 10%;
+}
+
+.bookshelf-book {
+    margin: 5px;
+    width: 500px;
+    length: 1000px;
+    height:3000px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bookshelf-book img {
+    height:15%;
+}
+.bookshelf-caption {
+    background-color:white;
+    position: absolute;
+}
+.bottom-to-top {
+    top:100%;
+}
+.bookshelf-book:hover .bottom-to-top {
+    top:0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

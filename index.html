@@ -1,0 +1,73 @@
+<!-- 1 -->
+<!-- add the javascript and css to the document as external resources-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<!-- 2 -->
+<!-- Create a button with the text 'show analytics', and give it an appropriate id-->
+
+<button id="button">show analytics</button>
+
+<!-- 3 -->
+<!-- Create an HTML element which will contain all the 'analytics' information, and give it an appropriate id-->
+<!-- give it the class 'hidden'-->
+<!-- Inside the HTML element, create 6 HTML elements -->
+<!-- These elements will hold information on whether the user has performed one of the following events: -->
+<!-- click on an RSS feed item, click on an RSS feed item 5 times, scroll up, scroll down, moved the mouse to the upper left corner of the window or the lower right corner-->
+<!-- Add some text and/or image in each of the 6 HTML elements to represent these 6 events -->
+<div id="analytics" class="hidden">
+<p id="click1">Clicked on an RSS feed item</p>
+<p id="click5">Clicked on an RSS feed item 5 times</p>
+<p id="scrollup">Scrolled up</p>
+<p id="scrolldown">Scrolled down</p>
+<p id="mouseupperleftcorner">Moved the mouse to the upper left corner</p>
+<p id="mouselowerrightcorner">Moved the mouse to the lower rigth corner</p>
+</div>
+
+<!-- 4 -->
+<!-- Create three HTML elements that will hold the content from each separate RSS feed and give them an appropriate id-->
+<ul class="bookshelf">
+    <li class="bookshelf-book">
+        <img src="beatles.jpg" />
+        <div class="bookshelf-caption bottom-to-top">
+            <h4>One Two Three Four: The Beatles in Time</h4>
+            <p> "A profound book about success and failure which won the unanimous support of our judges." - Martha Kearney.</p>
+        </div>
+    </li>
+
+    <li class="bookshelf-book">
+        <img src="shuggie.jpg" />
+        <div class="bookshelf-caption bottom-to-top">
+            <h4>Shuggie Bain</h4>
+            <p>Winner of the Booker prize. "A story based on his own life that follows a boy growing up in poverty in 1980s Glasgow with a mother who is battling addiction."</p>
+        </div>
+    </li>
+
+    <li class="bookshelf-book">
+        <img src="obama.jpg" />
+        <div class="bookshelf-caption bottom-to-top">
+            <h4>A Promised Land</h4>
+            <p>"The first volume of Barack Obama's presidential memoirs."</p>
+        </div>
+    </li>
+</ul>
+<!-- Add an h1 element inside each of these three 'container' elements with the title of the RSS feed -->
+<div id="div1">
+<h1> Book News </h1>
+</div>
+<div id="div2">
+<h1> Reviews </h1>
+</div>
+<div id="div3">
+<h1> Blogs </h1>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
